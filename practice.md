@@ -1,7 +1,6 @@
 ### Write CSV
 
-sample code-
-```
+sample code
 ```java
 private void button10_Click(object sender, EventArgs e)
        {
@@ -52,5 +51,13 @@ private void button10_Click(object sender, EventArgs e)
            }
 
        }
+
+```
+
+### datatable from String
+
+```java
+
+String str = Convert.ToString(dt.Rows[0][0]); 
 
 ```
